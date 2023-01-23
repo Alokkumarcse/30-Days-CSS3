@@ -4,8 +4,10 @@ body {
    width: 100%;
    box-sizing: border-box;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   flex-direction: column;
+   gap:200px;
+   justify-content:start;
+   align-items: flex-start;
 }
 
 .btn{
@@ -26,8 +28,10 @@ body {
    position: absolute;
    background-color: gray;
    width: max-content;
+   height: auto;
+   max-height: 100px;
    overflow-wrap:break-word;
-   padding: 3px;
+   padding: 7px 3px;
    border-radius: 5px;
    text-align: center;
 }  
